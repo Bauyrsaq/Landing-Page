@@ -1,0 +1,190 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #1f2937;
+    color: white;
+    padding: 32px 90px 128px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header-link {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-text {
+    width: 400px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 12px;
+}
+
+img.header-logo {
+    /* font-size: 24px;
+    color: #f9faf8; */
+    width: 84px;
+    height: auto;
+}
+
+.button,
+.modal-button {
+    background-color: #3882f6;
+    width: 120px;
+    height: 35px;
+    font-weight: bold;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    /* background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 400px;
+    /* height: 220px; */
+    height: auto;
+    flex-shrink: 0;
+}
+
+.content {
+    background: #ffffff;
+    color: #1f2937;
+    padding: 32px 90px 128px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.icon {
+    width: 150px;
+    /* height: 150px; */
+    height: auto;
+    border: 4px solid rgb(109, 109, 253);
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.icon-text {
+    width: 150px;
+    text-align: center;
+}
+
+.quote {
+    background: #e5e7eb;
+    padding: 100px 90px 64px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.quote-text {
+    width: 750px;
+}
+
+
+p {
+    font-size: 36px;
+    font-family: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.modal {
+    background: white;
+    padding: 100px 128px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-box {
+    background: #3882f6;
+    border-radius: 5px;
+    padding: 40px 64px;
+    display: flex;
+    gap: 128px;
+}
+
+.modal-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal-secondary {
+    color: #e5e7eb;
+}
+
+.modal-button {
+    border: 2px solid white;
+}
+
+.footer {
+    background: #1f2937;
+    color: white;
+    padding: 32px 90px;
+    text-align: center;
+}
